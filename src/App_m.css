@@ -75,7 +75,6 @@
         div.skills_container div.skills_area {
             margin-top: 40px;
             flex-wrap: wrap;
-            border-bottom: 1px solid hsla(45, 40%, 98%, 0.7);
         }
         div.skills_container div.skillbox {
             margin-bottom: 0;
@@ -89,9 +88,6 @@
             flex-direction: column;
             position: relative;
             padding: 20px 0 0;
-        }
-        div.skills_container div.quarter:nth-child(n+3) {
-            border-top: 1px solid rgba(252, 251, 248, 0.7);
         }
         div.skills_container div.half {
             border-top: 1px solid rgba(252, 251, 248, 0.7);

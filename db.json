@@ -29,7 +29,7 @@
             "id": 2,
             "imgsrc": "guessnum.png",
             "title": "숫자맞추기 게임",
-            "desc": "5번의 기회 안에 숫자를 맞추는 게임입니다. 정답은 콘솔창에서 확인할 수 있습니다. Javascript를 처음 배우며 만든 예제입니다. 단순한 원리 뒤에도 만흔 개념이 필요하다는 것을 알 수 있었습니다.",
+            "desc": "5번의 기회 안에 숫자를 맞추는 게임입니다. 정답은 콘솔창에서 확인할 수 있습니다. Javascript를 처음 배우며 만든 예제입니다. 단순한 원리 뒤에도 많은 개념이 필요하다는 것을 알 수 있었습니다.",
             "clone": false,
             "pageurl": "https://euantheuan.github.io/chooseyournumber/",
             "codeurl": "https://github.com/euantheuan/chooseyournumber",

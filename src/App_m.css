@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px) {
+    div.wrapper {
+        min-width: 375px;
+    }
+
+    /* navbar */
+        ul.mobile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ff8f97;
+            padding: 0 10px;
+        }
+        ul.mobile li.menu {
+            font-size: 30px;
+        }
+        ul.depth02 {
+            display: none;
+            color: #ff8f97;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        ul.depth02.on {
+            display: block;
+        }
+        ul.depth02 li {
+            margin-bottom: 10px;
+        }
+
+    /* contact */
+        div.profile {
+            width: 92%;
+            padding: 20px
+        }
+        div.profile img {
+            width: 85px; height: 85px;
+        }
+        div.profile div.text_area {
+            font-size: 18px;
+        }
+        div.contact form div.email label {
+            text-align: center;
+        }
+        div.contact form div.email input {
+            width: calc(92% - 120px)
+        }
+        div.contact form textarea {
+            width: 92%;
+        }
+
+    /* main */
+    div.main_container h1:first-child:before {
+        right: 0; top: -60px;
+    }
+    div.main_container h1:first-child:after {
+        top: -60px; right: 40px;
+    }
+    div.main_container span:before {
+        left: -70px
+    }
+    div.main_container span:after {
+        left: -40px
+    }
+    div.scroll {
+        bottom: 100px;
+    }
+
+    /* skills */
+        div.skills_container div.skills_area {
+            padding-top: 40px;
+        }
+        div.skills_container div.skills_area {
+            display: block;
+        }
+        div.skills_container div.left,
+        div.skills_container div.right {
+            width: 100%;
+        }
+
+    /* links */
+        div.links {
+            display: block;
+        }
+        div.links div.link {
+            width: 100%;
+            padding: 50px 20px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+        div.links div.link:first-child {
+            border-right: none;
+            border-bottom: 1px solid hsla(45, 40%, 98%, 0.7);
+        }
+        div.links div.link svg {
+            padding-top: 60px;
+        }
+}

@@ -93,6 +93,8 @@ div.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    max-width: 900px;
+    margin: 0 auto;
   }
   div.skills_container div.skillbox {
     background-color: #44358e;

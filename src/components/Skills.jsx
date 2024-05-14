@@ -1,7 +1,9 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Skills = () => {
-    return (
+    return ( <>
+        <Navbar />
         <div className='skills_container' id='skills'>
             <h2>Skills</h2>
             <div className="skills_area">
@@ -93,6 +95,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

@@ -93,9 +93,9 @@
             text-align: right;
             box-sizing: border-box;
         }
-        div.links div.link:first-child {
+        div.links > div+div {
             border-right: none;
-            border-bottom: 1px solid hsla(45, 40%, 98%, 0.7);
+            border-top: 1px solid hsla(45, 40%, 98%, 0.7);
         }
         div.links div.link h2 {
             font-size: 30px;
@@ -174,13 +174,13 @@
         div.webdevcard div.text_area div.btn_area {
             left: 50%;
             transform: translateX(-50%);
-            width: 220px;
+            width: 260px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         div.webdevcard div.text_area div.btn_area button {
-            width: 100px; height: 40px;
+            width: 120px; height: 40px;
             line-height: 40px;
             font-size: 22px;
             text-align: center;

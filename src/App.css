@@ -157,13 +157,14 @@ div.wrapper {
     padding: 100px 60px;
     text-align: right;
   }
-  div.links div.link:first-child {
-    border-right: 1px solid hsla(45, 40%, 98%, 0.7);
+  div.links > div+div {
+    border-left: 1px solid hsla(45, 40%, 98%, 0.7);
   }
   div.links div.link h2 {
     padding-bottom: 20px;
     font-size: 35px;
     line-height: 1.4;
+    height: 118px;
   }
   div.links div.link svg {
     height: 60px;
@@ -416,4 +417,9 @@ div.wrapper {
     border-radius: 4px;
     color: white;
     background-color: #e44458;
+  }
+
+/* skills */
+  div.skills_container {
+    margin-top: 60px;
   }

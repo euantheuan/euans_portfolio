@@ -22,7 +22,7 @@ const Navbar = () => {
                     </ul>
                     <ul className="depth02">
                         <li><Link to='/contact'>CONTACT</Link></li>
-                        <li><Link to='/'>SKILLS</Link></li>
+                        <li><Link to='/skills'>SKILLS</Link></li>
                         <li><Link to='/designportfolio'>DESIGN</Link></li>
                         <li><Link to='/webdevportfolio'>WEB DEV</Link></li>
                     </ul>
@@ -30,7 +30,7 @@ const Navbar = () => {
             ) : (
                 <ul className='pc'>
                     <li><Link to='/contact'>CONTACT</Link></li>
-                    <li><Link to='/'>SKILLS</Link></li>
+                    <li><Link to='/skills'>SKILLS</Link></li>
                     <li><Link to='/'><h1>박유안<span>의 포트폴리오</span></h1></Link></li>
                     <li><Link to='/designportfolio'>DESIGN</Link></li>
                     <li><Link to='/webdevportfolio'>WEB DEV</Link></li>

@@ -20,9 +20,19 @@ const Main = () => {
             <div className="intro">
                 "소개멘트"
             </div>
-            <Skills />
 
             <div className="links">
+                <div className="link skills">
+                    <Link to='/skills'>
+                        <h2>
+                            Skills
+                        </h2>
+                        <h2>
+                            사용 가능한 툴
+                        </h2>
+                        <FontAwesomeIcon icon={faChevronRight} />
+                    </Link>
+                </div>
                 <div className="link design">
                     <Link to='/designportfolio'>
                         <h2>

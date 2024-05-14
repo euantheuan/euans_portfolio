@@ -10,13 +10,13 @@ const DesignModal = ({ imgsrc, title, desc, onSetModal, modal }) => {
                     alt={title} />
             </div>
             <div className="text_area">
-                <FontAwesomeIcon icon={faSquareXmark} 
-                                onClick={()=>{onSetModal(!modal)}} />
                 <div className="text">
                     <h3 className="title">{title}</h3>
                     <p className="desc">{desc}</p>
                 </div>
             </div>
+            <FontAwesomeIcon icon={faSquareXmark} 
+                            onClick={()=>{onSetModal(!modal)}} />
         </div>
     )
 }

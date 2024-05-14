@@ -93,29 +93,32 @@ div.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
+    border-top: 1px solid hsla(45, 40%, 98%, 0.7);
   }
   div.skills_container div.skillbox {
-    background-color: #44358e;
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 15px;
-    border-radius: 10px;
-  }
-  div.skills_container div.left,
-  div.skills_container div.right {
-    width: 49%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+  }
+  div.skills_container div.skillbox {
+    border-bottom: 1px solid hsla(45, 40%, 98%, 0.7);
   }
   div.skills_container div.quarter {
     width: 48%;
   }
   div.skills_container div.half {
     width: 100%;
+    justify-content: start;
+  }
+  div.skills_container div.half H3 {
+    width: 200px;
   }
   div.skills_container div.img_container {
     display: flex;
@@ -160,7 +163,7 @@ div.wrapper {
     text-align: right;
   }
   div.links > div+div {
-    border-left: 1px solid hsla(45, 40%, 98%, 0.7);
+    border-left: 1px solid rgba(252, 251, 248, 0.7)
   }
   div.links div.link h2 {
     padding-bottom: 20px;
@@ -263,10 +266,10 @@ div.wrapper {
     padding: 50px;
     position: relative;
   }
-  div.designmodal_container div.text_area > svg {
+  div.designmodal_container > svg {
     font-size: 40px;
     position: absolute;
-    top: 0; right: 0;
+    top: 30px; right: 30px;
     cursor: pointer
   }
   div.designmodal_container div.text_area h3.title {
@@ -279,14 +282,16 @@ div.wrapper {
 
 /* web dev card */
   div.webdevcard {
-    background-color: #44358e;
-    padding: 40px;
-    border-radius: 20px;
+    padding: 40px 40px 30px;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     height: 380px;
+  }
+  div.webdevcard+div.webdevcard {
+    border-top: 1px solid rgba(252, 251, 248, 0.7);
+    padding-top: 50px;
   }
   div.webdevcard div.img_area {
     height: 100%;
@@ -377,10 +382,12 @@ div.wrapper {
   }
   div.profile div.text_area {
     font-size: 20px;
+    font-family: "Pretendard Variable";
   }
   div.profile div.text_area p.name {
     font-size: 25px;
     margin-bottom: 5px;
+    font-family: "Tenada";
   }
   div.contact form {
     display: flex;
@@ -416,11 +423,12 @@ div.wrapper {
     outline: 4px solid #FE8F96;
   }
   div.contact form button {
-    padding: 10px 20px;
+    padding: 14px 20px 10px;
     font-size: 25px;
     border-radius: 4px;
     color: white;
     background-color: #e44458;
+    
   }
 
 /* skills */

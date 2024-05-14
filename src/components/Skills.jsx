@@ -7,7 +7,6 @@ const Skills = () => {
         <div className='skills_container' id='skills'>
             <h2>Skills</h2>
             <div className="skills_area">
-                <div className="left">
                     <div className="skillbox quarter">
                         <h3>EDITOR</h3>
                         <div className="img_area">
@@ -20,6 +19,20 @@ const Skills = () => {
                         <div className="img_area">
                             <img src={process.env.PUBLIC_URL + '/ico/manage_git.png'} alt='Git' />
                             <p className="skill_name">Git</p>
+                        </div>
+                    </div>
+                    <div className="skillbox quarter">
+                        <h3>BACKEND</h3>
+                        <div className="img_area">
+                            <img src={process.env.PUBLIC_URL + '/ico/back_firebase.png'} alt='Firebase' />
+                            <p className="skill_name">Firebase</p>
+                        </div>
+                    </div>
+                    <div className="skillbox quarter">
+                        <h3>DEPLOY</h3>
+                        <div className="img_area">
+                            <img src={process.env.PUBLIC_URL + '/ico/deploy_netlify.png'} alt='Netlify' />
+                            <p className="skill_name">Netlify</p>
                         </div>
                     </div>
                     <div className="skillbox half">
@@ -43,8 +56,6 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="right">
                     <div className="skillbox half">
                         <h3>FRONTEND</h3>
                         <div className="img_container">
@@ -74,23 +85,8 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="skillbox quarter">
-                        <h3>BACKEND</h3>
-                        <div className="img_area">
-                            <img src={process.env.PUBLIC_URL + '/ico/back_firebase.png'} alt='Firebase' />
-                            <p className="skill_name">Firebase</p>
-                        </div>
-                    </div>
-                    <div className="skillbox quarter">
-                        <h3>DEPLOY</h3>
-                        <div className="img_area">
-                            <img src={process.env.PUBLIC_URL + '/ico/deploy_netlify.png'} alt='Netlify' />
-                            <p className="skill_name">Netlify</p>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
         </>
     )
 }

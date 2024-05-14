@@ -73,14 +73,48 @@
 
     /* skills */
         div.skills_container div.skills_area {
-            padding-top: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            border-bottom: 1px solid hsla(45, 40%, 98%, 0.7);
         }
-        div.skills_container div.skills_area {
-            display: block;
+        div.skills_container div.skillbox {
+            margin-bottom: 0;
+            border-bottom: none;
         }
-        div.skills_container div.left,
-        div.skills_container div.right {
+        div.skills_container div.quarter {
+            width: 48%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            position: relative;
+            padding: 20px 0 0;
+        }
+        div.skills_container div.quarter:nth-child(n+3) {
+            border-top: 1px solid rgba(252, 251, 248, 0.7);
+        }
+        div.skills_container div.half {
+            border-top: 1px solid rgba(252, 251, 248, 0.7);
+        }
+        div.skills_container div.quarter div.img_area {
+            margin: 0 auto;
+            text-align: center;
+        }
+        div.skills_container div.img_container {
+            justify-content: start;
+        }
+        div.skills_container img {
+            width: 50px; height: auto;
+        }
+        div.skills_container div.half div.img_container {
+            justify-content: space-between;
             width: 100%;
+        }
+        div.skills_container div.half div.img_area {
+            width: 40%;
+        }
+        div.skills_container h3 {
+            font-size: 22px;
         }
 
     /* links */
@@ -134,19 +168,15 @@
             width: 100%;
             margin: 0 auto 20px;
             border-radius: 10px;
-
         }
         div.designmodal_container div.text_area {
             width: 100%;
             padding: 0 10px;
             box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
-            align-items: end;
-            flex-direction: row-reverse;
+            display: block;
         }
-        div.designmodal_container div.text_area > svg {
-            position: static;
+        div.designmodal_container > svg {
+            top: 20px; right: 20px;
         }
         div.designmodal_container div.text_area div.text {
             width: calc(100% - 50px);

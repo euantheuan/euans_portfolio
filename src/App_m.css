@@ -49,21 +49,24 @@
         }
 
     /* main */
-    div.main_container h1:first-child:before {
-        right: 0; top: -60px;
-    }
-    div.main_container h1:first-child:after {
-        top: -60px; right: 40px;
-    }
-    div.main_container span:before {
-        left: -70px
-    }
-    div.main_container span:after {
-        left: -40px
-    }
-    div.scroll {
-        bottom: 100px;
-    }
+        div.main_container {
+            height: 90vh;
+        }
+        div.main_container h1:first-child:before {
+            right: 0; top: -60px;
+        }
+        div.main_container h1:first-child:after {
+            top: -60px; right: 40px;
+        }
+        div.main_container span:before {
+            left: -70px
+        }
+        div.main_container span:after {
+            left: -40px
+        }
+        div.scroll {
+            bottom: 60px;
+        }
 
     /* skills */
         div.skills_container div.skills_area {
@@ -93,5 +96,44 @@
         }
         div.links div.link svg {
             padding-top: 60px;
+        }
+
+    /* card */
+        div.card_container {
+            margin-top: 60px;
+        }
+        div.card_container h2 {
+            font-size: 30px;
+            word-break: keep-all;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        div.card_area {
+            padding-top: 60px;
+        }
+
+    /* design card */
+        div.designcard > img {
+            margin: 0 0 15px;
+        }
+        div.designmodal_container {
+            display: block;
+            width: 95%;
+            padding: 20px;
+        }
+        div.designmodal_container div.img_area {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        div.designmodal_container div.text_area {
+            width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+        div.designmodal_container div.text_area div.text {
+            width: calc(100% - 40px);
         }
 }

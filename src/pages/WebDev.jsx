@@ -8,7 +8,7 @@ const WebDev = () => {
 
     const getCards = async () => {
         try {
-                let url = 'https://my-json-server.typicode.com/euantheuan/euan_portfolio/webdevcard';
+                let url = 'https://my-json-server.typicode.com/euantheuan/euans_portfolio/webdevcard';
                 let response = await fetch(url);
                 let data = await response.json();
                 setCards(data);

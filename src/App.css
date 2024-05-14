@@ -264,6 +264,13 @@ div.wrapper {
     top: 0; right: 0;
     cursor: pointer
   }
+  div.designmodal_container div.text_area h3.title {
+    font-size: 25px;
+  }
+  div.designmodal_container div.text_area p.desc {
+    font-family: "Pretendatd Variable";
+    font-size: 17px;
+  }
 
 /* web dev card */
   div.webdevcard {

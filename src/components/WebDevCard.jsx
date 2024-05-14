@@ -32,7 +32,7 @@ const WebDevCard = ({ imgsrc, title, desc, clone, pageurl, codeurl, version, pag
                 </div>
                 <div className="btn_area">
                     <button onClick={()=>{window.open(pageurl)}}>바로가기</button>
-                    <button onClick={()=>{window.open(codeurl)}}>코드 보기</button>
+                    <button onClick={()=>{window.open(codeurl)}}>코드보기</button>
                 </div>
             </div>
         </div>

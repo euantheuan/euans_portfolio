@@ -248,11 +248,13 @@ div.wrapper {
     border-radius: 20px;
   }
   div.designmodal_container div.img_area {
-    width: 60%;
+    max-width: 60%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
   }
   div.designmodal_container div.img_area > img {
     width: 100%;
-    border-radius: 15px;
   }
   div.designmodal_container div.text_area {
     width: 40%;

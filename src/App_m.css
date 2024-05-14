@@ -94,7 +94,7 @@
             box-sizing: border-box;
         }
         div.links > div+div {
-            border-right: none;
+            border-left: none;
             border-top: 1px solid hsla(45, 40%, 98%, 0.7);
         }
         div.links div.link h2 {

@@ -71,10 +71,6 @@ const Skills = () => {
                             <div className="img_area">
                                 <img src={process.env.PUBLIC_URL + '/ico/front_bootstrap.png'} alt='Bootstrap' />
                                 <p className="skill_name">Bootstrap</p>
-                                </div>
-                            <div className="img_area">
-                                <img src={process.env.PUBLIC_URL + '/ico/front_fontawesome.png'}alt='FontAwesome' />
-                                <p className="skill_name">FontAwesome</p>
                             </div>
                         </div>
                     </div>

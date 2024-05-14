@@ -237,7 +237,7 @@ div.wrapper {
     justify-content: space-between;
     align-items: start;
     position: fixed;
-    height: auto;
+    height: 95vh;
     width: calc(100% - 100px);
     background-color: #FE8F96;
     padding: 30px;
@@ -265,7 +265,7 @@ div.wrapper {
     cursor: pointer
   }
   div.designmodal_container div.text_area h3.title {
-    font-size: 25px;
+    font-size: 30px;
   }
   div.designmodal_container div.text_area p.desc {
     font-family: "Pretendatd Variable";
@@ -304,16 +304,18 @@ div.wrapper {
   div.webdevcard div.text_area div.title_area {
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
     align-items: baseline;
     font-size: 30px;
     color:#e44458;
-    margin-bottom: 10px;
     font-weight: normal;
+  }
+  div.webdevcard div.text_area div.title_area h3 {
+    margin-right: 15px;
   }
   div.webdevcard div.text_area div.title_area span {
     font-size: 28px;
     color:#ff8f96;
-    margin-left: 15px;
   }
   div.webdevcard div.text_area div.desc {
     line-height: 1.5;
@@ -326,13 +328,13 @@ div.wrapper {
   div.webdevcard div.text_area div.btn_area button {
     width: 130px; height: 50px;
     font-size: 25px;
-    margin-right: 20px;
     border-radius: 5px;
     line-height: 50px;
   }
   div.webdevcard div.text_area div.btn_area button:first-child {
     background-color: #ff8f96;
     color: white;
+    margin-right: 20px;
   }
   div.webdevcard div.text_area div.btn_area button:first-child:hover {
     background-color: #f2888f;

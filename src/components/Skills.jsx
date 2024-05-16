@@ -29,17 +29,23 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skillbox quarter">
-                        <h3>DEPLOY</h3>
-                        <div className="img_area">
-                            <img src={process.env.PUBLIC_URL + '/ico/deploy_netlify.png'} alt='Netlify' />
-                            <p className="skill_name">Netlify</p>
-                        </div>
-                    </div>
-                    <div className="skillbox half">
                         <h3>PROTOTYPING TOOL</h3>
                         <div className="img_area">
                             <img src={process.env.PUBLIC_URL + '/ico/design_figma.png'} alt='Figma' />
                             <p className="skill_name">Figma</p>
+                        </div>
+                    </div>
+                    <div className="skillbox half">
+                        <h3>DEPLOY</h3><div className="img_container">
+                            
+                            <div className="img_area">
+                                <img src={process.env.PUBLIC_URL + '/ico/deploy_netlify.png'} alt='Netlify' />
+                                <p className="skill_name">Netlify</p>
+                            </div>
+                            <div className="img_area">
+                                <img src={process.env.PUBLIC_URL + '/ico/manage_git.png'} alt='Git' />
+                                <p className="skill_name">Git</p>
+                            </div>
                         </div>
                     </div>
                     <div className="skillbox half">

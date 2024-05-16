@@ -30,6 +30,7 @@
     /* contact */
         div.profile {
             width: 92%;
+            max-width: 350px;
             padding: 20px
         }
         div.profile img {
@@ -42,10 +43,12 @@
             text-align: center;
         }
         div.contact form div.email input {
-            width: calc(92% - 120px)
+            width: calc(92% - 120px);
+            max-width: 290px;
         }
         div.contact form textarea {
             width: 92%;
+            max-width: 350px;
         }
 
     /* main */

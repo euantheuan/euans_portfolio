@@ -94,7 +94,7 @@ div.wrapper {
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
   }
   div.skills_container div.skillbox {
@@ -114,10 +114,7 @@ div.wrapper {
   }
   div.skills_container div.half {
     width: 100%;
-    justify-content: start;
-  }
-  div.skills_container div.half H3 {
-    width: 200px;
+    justify-content: space-between;
   }
   div.skills_container div.img_container {
     display: flex;
@@ -323,8 +320,10 @@ div.wrapper {
     margin-right: 15px;
   }
   div.webdevcard div.text_area div.title_area span {
-    font-size: 28px;
+    font-size: 20px;
     color:#ff8f96;
+    font-family: "Pretendard Variable";
+    font-weight: 600;
   }
   div.webdevcard div.text_area div.desc {
     line-height: 1.5;
@@ -350,7 +349,9 @@ div.wrapper {
   }
   div.webdevcard div.text_area p.version {
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: "Pretendard Variable";
+    font-weight: 600;
   }
   div.webdevcard div.text_area p.desc {
     font-family: "Pretendard Variable";

@@ -86,7 +86,7 @@ div.wrapper {
     top: -35px;
   }
   div.skills_container h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 15px;
   }
   div.skills_container div.skills_area {
@@ -107,10 +107,10 @@ div.wrapper {
     flex-wrap: wrap;
   }
   div.skills_container div.skillbox:nth-child(n+3) {
-    border-top: 1px solid hsla(45, 40%, 98%, 0.7);
+    border-top: 1px solid rgba(252, 251, 247, 0.5);
   }
   div.skills_container div.quarter {
-    width: 48%;
+    width: 45%;
   }
   div.skills_container div.half {
     width: 100%;
@@ -127,7 +127,7 @@ div.wrapper {
     position: relative;
   }
   div.skills_container img {
-    height: 75px;
+    height: 60px;
     margin: 10px;
   }
   div.skills_container div.img_area p.skill_name {
@@ -159,7 +159,7 @@ div.wrapper {
     text-align: right;
   }
   div.links > div+div {
-    border-left: 1px solid rgba(252, 251, 248, 0.7)
+    border-left: 1px solid rgba(252, 251, 248, 1)
   }
   div.links div.link h2 {
     padding-bottom: 20px;
@@ -278,18 +278,18 @@ div.wrapper {
 
 /* web dev card */
   div.webdevcard {
-    padding: 40px 40px 40px;
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: start;
     margin-bottom: 20px;
     height: 380px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
   }
   div.webdevcard+div.webdevcard {
-    border-top: 1px solid rgba(252, 251, 248, 0.7);
-    padding-top: 50px;
+    border-top: 1px solid rgba(252, 251, 247, 0.5);
+    padding-top: 40px;
   }
   div.webdevcard div.img_area {
     height: 100%;
@@ -334,12 +334,13 @@ div.wrapper {
   div.webdevcard div.text_area div.btn_area {
     position: absolute;
     bottom: 0;
+    font-family: "Pretendard Variable";
   }
   div.webdevcard div.text_area div.btn_area button {
-    width: 130px; height: 50px;
-    font-size: 25px;
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 700;
     border-radius: 5px;
-    line-height: 50px;
   }
   div.webdevcard div.text_area div.btn_area button:first-child {
     background-color: #ff8f96;

@@ -88,7 +88,7 @@
             border-bottom: none;
         }
         div.skills_container div.quarter {
-            width: 48%;
+            width: 45%;
             display: flex;
             justify-content: center;
             align-items: start;
@@ -97,7 +97,7 @@
             padding: 20px 0 0;
         }
         div.skills_container div.half {
-            border-top: 1px solid rgba(252, 251, 248, 0.7);
+            border-top: 1px solid rgba(252, 251, 247, 0.5);
         }
         div.skills_container div.quarter div.img_area {
             margin: 0 auto;
@@ -117,7 +117,10 @@
             width: 40%;
         }
         div.skills_container h3 {
-            font-size: 22px;
+            font-size: 20px;
+        }
+        div.skills_container img.canva {
+            width: 100px
         }
 
     /* links */
@@ -132,7 +135,7 @@
         }
         div.links > div+div {
             border-left: none;
-            border-top: 1px solid hsla(45, 40%, 98%, 0.7);
+            border-top: 1px solid hsla(45, 40%, 98%, 1);
         }
         div.links div.link h2 {
             font-size: 30px;
@@ -191,7 +194,6 @@
     /* web dev */
         div.webdevcard {
             display: block;
-            padding: 20px;
             height: auto;
         }
         div.webdevcard div.img_area {
@@ -210,20 +212,11 @@
         div.webdevcard div.text_area div.btn_area {
             left: 50%;
             transform: translateX(-50%);
-            width: 260px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         div.webdevcard div.text_area div.btn_area button {
-            width: 120px; height: 40px;
-            line-height: 40px;
-            font-size: 22px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 4px;
             box-sizing: border-box;
         }
 }

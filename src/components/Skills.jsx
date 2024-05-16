@@ -60,7 +60,7 @@ const Skills = () => {
                                 <p className="skill_name">Illustrator</p>
                             </div>
                             <div className="img_area">
-                                <img src={process.env.PUBLIC_URL + '/ico/design_canva.png'} alt='Canva' />
+                                <img src={process.env.PUBLIC_URL + '/ico/design_canva.png'} alt='Canva' className='canva'/>
                                 <p className="skill_name">Canva</p>
                             </div>
                         </div>

@@ -24,7 +24,11 @@
             display: block;
         }
         ul.depth02 li {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        div.gnb ul.depth02 li a {
+            display: inline-block;
+            width: 100%;
         }
 
     /* contact */

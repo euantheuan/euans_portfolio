@@ -22,7 +22,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skillbox quarter">
-                        <h3>BACKEND</h3>
+                        <h3>SDK</h3>
                         <div className="img_area">
                             <img src={process.env.PUBLIC_URL + '/ico/back_firebase.png'} alt='Firebase' />
                             <p className="skill_name">Firebase</p>
@@ -36,6 +36,13 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skillbox half">
+                        <h3>PROTOTYPING TOOL</h3>
+                        <div className="img_area">
+                            <img src={process.env.PUBLIC_URL + '/ico/design_figma.png'} alt='Figma' />
+                            <p className="skill_name">Figma</p>
+                        </div>
+                    </div>
+                    <div className="skillbox half">
                         <h3>DESIGN TOOL</h3>
                         <div className="img_container">
                             <div className="img_area">
@@ -45,10 +52,6 @@ const Skills = () => {
                             <div className='img_area'>
                                 <img src={process.env.PUBLIC_URL + '/ico/design_illustrator.png'} alt='Illustrator' />
                                 <p className="skill_name">Illustrator</p>
-                            </div>
-                            <div className="img_area">
-                                <img src={process.env.PUBLIC_URL + '/ico/design_figma.png'} alt='Figma' />
-                                <p className="skill_name">Figma</p>
                             </div>
                             <div className="img_area">
                                 <img src={process.env.PUBLIC_URL + '/ico/design_canva.png'} alt='Canva' />

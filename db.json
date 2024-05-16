@@ -51,7 +51,7 @@
             "id": 4,
             "imgsrc": "pintura.png",
             "title": "핀투라",
-            "desc": "캔버스 그림을 대여해주는 서비스를 제공하는 사이트입니다. 직접 디자인한 시안을 바탕으로 jQuery UI를 이용해 다양한 input요소를 구현하였습니다.",
+            "desc": "캔버스 그림을 대여해주는 서비스를 제공하는 사이트입니다. 대여받을 그림을 추천받기 위해 사용자는 설문을 진행하게 됩니다. 이 설문에서 직접 디자인한 시안을 바탕으로 jQuery UI를 이용해 다양한 input 요소를 구현하였습니다.",
             "clone": false,
             "pageurl": "https://euantheuan.github.io/euan_pintura/",
             "codeurl": "https://github.com/euantheuan/euan_pintura",

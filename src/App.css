@@ -284,6 +284,8 @@ div.wrapper {
     align-items: start;
     margin-bottom: 20px;
     height: 380px;
+    max-width: 800px;
+    margin: 0 auto;
   }
   div.webdevcard+div.webdevcard {
     border-top: 1px solid rgba(252, 251, 248, 0.7);
@@ -349,7 +351,7 @@ div.wrapper {
   }
   div.webdevcard div.text_area p.version {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Pretendard Variable";
     font-weight: 600;
   }

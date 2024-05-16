@@ -278,7 +278,7 @@ div.wrapper {
 
 /* web dev card */
   div.webdevcard {
-    padding: 40px 40px 30px;
+    padding: 40px 40px 40px;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -333,7 +333,7 @@ div.wrapper {
   }
   div.webdevcard div.text_area div.btn_area {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
   }
   div.webdevcard div.text_area div.btn_area button {
     width: 130px; height: 50px;

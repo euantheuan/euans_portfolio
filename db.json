@@ -2,15 +2,27 @@
     "designcard": [
         {
             "id": 1,
-            "imgsrc": "sample.jpg",
-            "title": "어쩌고",
-            "desc": "어쩌고 저쩌고 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione neque, molestias placeat eveniet, pariatur magnam iusto aliquam nihil earum et nisi est laudantium obcaecati voluptas omnis laboriosam illum cumque quam?"
+            "imgsrc": "birthday.jpg",
+            "title": "생일 축하 카드",
+            "desc": "생일 축하 메시지가 담긴 이미지입니다. 분홍색, 노란색, 남색의 조합이면 좋겠다고 디자인을 부탁받아 제작하였습니다."
         },
         {
             "id": 2,
-            "imgsrc": "sample.jpg",
-            "title": "어쩌고",
-            "desc": "어쩌고 저쩌고 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione neque, molestias placeat eveniet, pariatur magnam iusto aliquam nihil earum et nisi est laudantium obcaecati voluptas omnis laboriosam illum cumque quam?"
+            "imgsrc": "book.png",
+            "title": "책 모임 홍보 포스터",
+            "desc": "책을 함께 읽을 사람들을 모집하기 위한 포스터를 제작하였습니다. 모임에 들어오기 전 꼭 알아야 할 정보들을 담았습니다."
+        },
+        {
+            "id": 3,
+            "imgsrc": "2023party.png",
+            "title": "행사 홍보 포스터",
+            "desc": "행사의 홍보를 위한 카드뉴스 4장 모음입니다. 하와이와 훌라라는 컨셉에 맞추어 열대 기후의 식물로 디자인하여 분위기를 살렸습니다."
+        },
+        {
+            "id": 4,
+            "imgsrc": "hari.png",
+            "title": "강아지 '하리' 스튜디오 촬영 사진",
+            "desc": "강아지의 모습을 사진으로 기록한 것을 보정하였습니다. 강아지의 얼굴에 주의가 집중되도록 신경썼습니다."
         }
     ],
     "webdevcard": [
@@ -82,6 +94,17 @@
         },
         {
             "id": 6,
+            "imgsrc": "portfolio.png",
+            "title": "text2PDF",
+            "desc": "마크다운 문법으로 작성된 텍스트를 PDF로 내보내는 기능을 가진 사이트입니다. React와 Firebase를 연동하여 클라우드에도 문서를 저장할 수 있습니다. 기존의 문서를 수정 혹은 삭제할 수 있습니다.",
+            "clone": false,
+            "pageurl": "https://text-2-pdf.web.app/",
+            "codeurl": "https://github.com/euantheuan/euan_text2pdf",
+            "version": "PC",
+            "page": null
+        }
+        {
+            "id": 7,
             "imgsrc": "portfolio.png",
             "title": "박유안의 포트폴리오",
             "desc": "최종 프로젝트로 제작한 제 포트폴리오 페이지입니다. React를 이용하여 제작하였으며 어쩌구저쩌구",
